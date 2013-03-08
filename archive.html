@@ -5,7 +5,7 @@ permalink: /archive/
 isArchive: true
 ---
 <div class="wrapper">
-<h1><a href="{{ page.url }}">{{ page.title }}</a> </h1>
+<h1>{{ page.title }}</h1>
   {% capture post_year1 %}{{ 'now' | date: '%Y' }}{% endcapture %}
 <ul class="postsList">
 {% for post in site.posts %}
