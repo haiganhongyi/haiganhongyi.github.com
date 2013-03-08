@@ -11,16 +11,10 @@ published: true
 
 ---
 
-系统抽样Systematic Sampling
-==============================
-
-
 今天来谈谈系统抽样。先看看在R中的一段最简单的动画[模拟](http://animation.yihui.name/samp:systematic_sampling)：
 <pre>
-`
 sample.system(nrow = 10, ncol = 10, size = 15, p.col = c("blue", "red"), 
     p.cex = c(1, 3))
-`
 </pre>
 
 再次引用yihui的wiki语录吧
@@ -57,7 +51,6 @@ PS:在进行系统抽样前有一个总体抽样框的序列，面临着一个�
 为了表示一点geek:用R语言来描述一下过程，其实都很初级，也很幼稚啊
 
 <pre>
-`
 sample.sys = function(x,n)
 {
   N = length(x)
@@ -70,7 +63,6 @@ sample.sys = function(x,n)
 } 
   sam
 }
-`
 </pre>
 
 >其实吧，如果可以编写代码来解决的话，那么前提必须是：有抽样框的序列！
@@ -79,7 +71,7 @@ sample.sys = function(x,n)
 **注意事项**：上述表示的等概率抽样的前提是K算出来是个整数！如果不是整数，采用直线等距抽样（2.5选组距为2）将会产生无偏估计。怎么办？不用担心，这些传统的抽样技术早就被研究得很彻底了！采用圆形系统抽样（Circular Systematic Sampling）
 
 <pre>
->circular.sys = function(x,n)
+circular.sys = function(x,n)
 {
   N = length(x)    
   k =as.integer(N/n)
@@ -97,7 +89,7 @@ sample.sys = function(x,n)
 
 然而实际工作者还有更粗暴和简便的方法，就是强制N=nk.那么做法就是这样的：
 <pre>
->linear.sys.fact = function(x,n)
+linear.sys.fact = function(x,n)
 {
   #据说这里还要用set.seed()
   N = length(x)
