@@ -32,7 +32,6 @@ permalink: /links/
 
 * [统计之都](http://cos.name) 国内的统计学网站先驱
 * [Kaggle](http://www.kaggle.com/) 许多人都在这里学习和刷题
-思喆](http://sunbjt.name)
 
 软件
 =============
