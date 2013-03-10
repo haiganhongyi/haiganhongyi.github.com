@@ -9,6 +9,20 @@
     <a class="label label-success" href="/tag/#{{ tag }}">{{ tag }}</a>
 {% endfor %}</div>
 {% endif %}
+
+<ul class="pager">
+    {% if page.previous %}
+    <li class="previous">
+    <a href="{{ page.previous.url }}">&larr; {{ page.previous.title }}</a>
+    </li>
+    {% endif %} <small>按 j或 k 翻页</small>
+    {% if page.next %} 
+    <li class="next">
+    <a href="{{ page.next.url }}" class="pull-right">{{ page.next.title }} &rarr;</a>
+    </li>
+    {% endif %}   
+</ul>
+<hr>
 <!-- Duoshuo Comment BEGIN -->
 <!-- Duoshuo Comment BEGIN -->
 	<div class="ds-thread"></div>
@@ -25,17 +39,4 @@
 	</script>
 <!-- Duoshuo Comment END -->
 <!-- Duoshuo Comment END -->
-<hr>
-<ul class="pager">
-    {% if page.previous %}
-    <li class="previous">
-    <a href="{{ page.previous.url }}">&larr; {{ page.previous.title }}</a>
-    </li>
-    {% endif %} <small>按 j或 k 翻页</small>
-    {% if page.next %} 
-    <li class="next">
-    <a href="{{ page.next.url }}" class="pull-right">{{ page.next.title }} &rarr;</a>
-    </li>
-    {% endif %}   
-</ul>
 <hr>
