@@ -21,14 +21,15 @@ Github已经被那么多大神攻占了啊。
 </pre>
 本地博客预览的Git命令：
 <pre lang="rsplus">
-git clone git@github.com:haiganhongyi/haiganhongyi.github.com.git liaoling
-cd liaoling
+git clone git@github.com:haiganhongyi/haiganhongyi.github.com.git filename
+cd filename
 /** git remote add origin git@github.com:haiganhongyi/haiganhongyi.github.com.git
 /**上面这句只需执行一次，以后本机不需执行。
 /**在本地写MarkDown博客
 git add .
 git commit -m "Anoter Post"
-git push origin master
+git push -u origin master
+##最后一条命令是在不行，我会强制执行 git push -f
 /*ok the end
 </pre>
 这方面的教程，官方[http://pages.github.com/]的最好。同时国内[yanping](http://yanping.github.com) 记录得也非常
