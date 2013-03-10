@@ -417,3 +417,16 @@ text-shadow: 0 1px 0 #fff;
     margin:  10px 0px 20px 0px;
 }
 
+#pagesay {
+	background: white;
+/*	background-image: url(grid.png); */
+	padding: 3em 3em 1.5em 3em;
+	border: 1px solid #ccc;
+}
+
+/* More experimental CSS3 features */
+#pagesay {
+	box-shadow: 2px 2px 8px #aaa;
+	-webkit-box-shadow: 2px 2px 8px #aaa;
+	-moz-box-shadow: 2px 2px 8px #aaa;	
+}
