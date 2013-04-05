@@ -4,10 +4,19 @@
  * Designed by Tao Zhang
  * http://ztpala.com
  * effecotr-wide is the 99% same as effector, only it's better for displaying photos.
+ changed by liaoling 2013-04-05
  */
 html, body {
     background-color: #FFFFFF;
 }
+body div.content {}
+    body div.content code.has-jax {
+        font: inherit;
+        font-size: 100%;
+        background: inherit;
+        border: inherit;
+        color: #000000;
+    }
 footer, header, nav {
     display: block;
 }
