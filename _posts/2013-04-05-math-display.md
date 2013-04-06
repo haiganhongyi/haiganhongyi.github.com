@@ -18,9 +18,12 @@ $$
 yes，that is working！
 使用方法[链接](http://cyukang.com/2013/03/03/try-mathjax.html)：
 即第一步，需要使用[mathjax](http://www.mathjax.org/) 的官方说明
-须在default.html中添加一行script
-<script type="text/javascript"
+须在default.html中添加一行script代码
+<pre>
+<code><script type="text/javascript"
    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-   </script>
+</script>
+</code>
+</pre>
 主要问题在于必须将rdiscount设置改为kramdown(在config.yml配置文件中)
 tks for google！

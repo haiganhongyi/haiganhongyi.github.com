@@ -25,9 +25,8 @@ permalink: /about/
 
 ###新浪微博：
 
-<a href="http://weibo.com/myskyhai" target="_blank">
-<img border="0" src="http://service.t.sina.com.cn/widget/qmd/2388774393/ada23665/2.png", align="center"></a>
-
+<[http://weibo.com/myskyhai]>
+![]("http://service.t.sina.com.cn/widget/qmd/2388774393/ada23665/1.png")
 ----
 
 请多多关照！
