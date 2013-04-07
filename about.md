@@ -4,7 +4,6 @@ title: About Me/关于我
 permalink: /about/
 ---
 
-----
 自己：
 ==========
 出生于北纬30度的某个角落，我相信那是多少年后的又一个“桃花源”。
@@ -24,9 +23,8 @@ permalink: /about/
 ===========
 
 ###新浪微博：
-
-[http://weibo.com/myskyhai]
-!("http://service.t.sina.com.cn/widget/qmd/2388774393/ada23665/1.png")
+<a href="http://weibo.com/myskyhai" target="_blank">
+<img border="0" src="http://service.t.sina.com.cn/widget/qmd/2388774393/ada23665/1.png", align="center"></a>
 ----
 
 请多多关照！
