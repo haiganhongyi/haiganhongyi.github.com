@@ -9,7 +9,7 @@ published: true
 
 ---
 为什么要管理博客：
-<pre lang="rsplus">您好，这个世界真的有太多好玩的事物了哈！
+<pre>您好，这个世界真的有太多好玩的事物了哈！
 博客是点点还是github呢？
 Github已经被那么多大神攻占了啊。
 小谢在此也占了一个角落?
@@ -17,10 +17,9 @@ Github已经被那么多大神攻占了啊。
 -railinstall 2.01版本
 -gem jekyll
 -gem rdiscount --version 1.6.8
-
 </pre>
 本地博客预览的Git命令：
-<pre lang="rsplus">
+<pre>
 git clone git@github.com:haiganhongyi/haiganhongyi.github.com.git filename
 cd filename
 /** git remote add origin git@github.com:haiganhongyi/haiganhongyi.github.com.git
