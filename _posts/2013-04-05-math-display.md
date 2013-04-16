@@ -21,5 +21,3 @@ yes，that is working！
 须在default.html中添加一行script代码
 主要问题在于必须将rdiscount设置改为kramdown(在config.yml配置文件中)
 tks for google！
-下面测试一下：
-<script src='https://jinshuju.net/f/DePqfo/embedded.js?height=1146'></script>
