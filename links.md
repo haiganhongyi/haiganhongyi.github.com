@@ -5,6 +5,9 @@ permalink: /links/
 ---
 
 ----
+我的课外博客
+===========
+(http://haiganhongyi.github.io/art)
 
 经济人物
 ===============
