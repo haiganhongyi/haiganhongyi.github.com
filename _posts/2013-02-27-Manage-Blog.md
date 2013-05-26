@@ -28,6 +28,7 @@ cd filename
 git add .
 git commit -m "Anoter Post"
 git push -u origin master
+## 对我的art子博客：git push -u orgin gh-pages
 ##最后一条命令是在不行，我会强制执行 git push -f
 /*ok the end
 </pre>
