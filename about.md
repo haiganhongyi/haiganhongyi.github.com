@@ -19,14 +19,6 @@ permalink: /about/
 ===========
 - 2012.12 – 2012.12  谢帮强 《商业地产发展因素研究》 working paper finished （统计建模大赛论文）
 
-联络方式 
-===========
-
-###新浪微博：
-<a href="http://weibo.com/myskyhai" target="_blank">
-<img border="0" src="http://service.t.sina.com.cn/widget/qmd/2388774393/ada23665/1.png", align="center"></a>
-----
-
 请多多关照！
 
 
